@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-cahr  charType;
+char  charType;
 int intType;
 long int longintType;
 long long int longlongintType;
