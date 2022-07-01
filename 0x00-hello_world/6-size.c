@@ -2,6 +2,7 @@
 /**
  * main - Task 6
  * Return: 0
+ */
 int main(void)
 {
 cahr  charType;
