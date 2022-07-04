@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - A program that asssigns a random number to the variable n each time it is executed
+* main - Variables Project Task 1
 * Return: 0
 */
 int main(void)
