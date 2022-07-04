@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
-* Task 2: a program that will print the alphabet in lowercase
+* main - Variables 0x01, Task 2
+* Return: 0
 */
 int main(void)
 {
-int letter;
+char letter;
 for (letter = '97'; letter <= '122'; letter++)
 {
 	putchar(letter);
