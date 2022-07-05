@@ -2,7 +2,6 @@
 
 /**
 * print_alphabet - main function Fnctions
-* Return: 0
 */
 void print_alphabet(void)
 {
