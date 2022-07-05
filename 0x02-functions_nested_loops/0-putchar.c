@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-* main - 0x02 Functions, nested loops, Task 0
+* main - main function putchar
 * Return: 0
 */
 int main(void)
 {
-putchar('_');
+putchar('-')
 putchar('p');
 putchar('u');
 putchar('t');
