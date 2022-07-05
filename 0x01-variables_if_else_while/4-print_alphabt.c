@@ -14,5 +14,6 @@ if (l == 'q' || l == 'e')
 continue;
 }
 putchar (l);
+}
 return (0);
 }
