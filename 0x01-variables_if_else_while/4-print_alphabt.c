@@ -13,5 +13,7 @@ if (l != 'q' && l != 'e')
 {
 putchar(l);
 }
+}
 putchar(10);
 return (0);
+}
