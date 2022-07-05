@@ -5,14 +5,14 @@
 */
 int main(void)
 {
-int i;
-for (i = 10; 1 < 20; i++)
+char ch;
+for (ch = 48; ch <= 57; ch++)
 {
-putchar((i % 10) + '0');
-if (i != 19)
+putchar(ch);
+if (ch != 57)
 {
-putchar(',');
-putchar(' ');
+putchar('44');
+putchar('32');
 }
 }
 putchar('\n');
