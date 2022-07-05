@@ -1,5 +1,4 @@
 #include "main.h"
-#include "main.c"
 /**
 * main - 0x02 Functions, nested loops, Task 0
 * Return: 0
