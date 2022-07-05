@@ -5,17 +5,17 @@
 */
 int main(void)
 {
-int n;
-for (n = 48; n <= 57; n++)
+int ch;
+for (ch = 48; ch <= 57; ch++)
 {
-putchar(n);
-if (n != 57)
+putchar(ch);
+if (ch != 57)
 {
-putchar('44');
-putchar('32');
+putchar(44);
+putchar(32);
 }
 }
-putchar('\n');
+putchar(10);
 return (0);
 }
 
