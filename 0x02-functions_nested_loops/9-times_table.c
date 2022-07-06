@@ -11,7 +11,7 @@ for (a = 0; a < 10; a++)
 _putchar('0');
 _putchar(',');
 _putchar(' ');
-for (b = 0; b < 10; b++)
+for (b = 1; b < 10; b++)
 {
 c = (a * b);
 if ((c / 10) > 0)
