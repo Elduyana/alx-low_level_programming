@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * * main - a function that prints out postive and negative values
+ * * positive_or_negative - a function that prints out postive and negative values
  * * Return: 0
 */
-int main(void)
+void positive_or_negative(int i)
 {
 int n;
 srand(time(0));
@@ -18,5 +18,16 @@ if (n < 0)
 {
 printf("%d is negative\n", n);
 }
+return (0);
+}
+/**
+* main - main function
+*Return: 0
+*/
+int main(void)
+{
+int i;
+i = 0;
+positive_or_negative(i);
 return (0);
 }
