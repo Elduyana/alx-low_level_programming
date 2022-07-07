@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+#include <main.h>
 
 /**
 * main - function that computes and prints the sum of 3 & 5 below 1024
