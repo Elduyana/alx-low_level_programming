@@ -17,7 +17,7 @@ if (a < 4000000 && (a % 2) == 0)
 {
 sum = sum + a;
 }
-next = a + c;
+next = a + b;
 a = b;
 b = next;
 }
