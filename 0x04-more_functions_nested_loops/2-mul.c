@@ -2,7 +2,7 @@
 
 /**
 * mul - main function
-* @a - first integer
+* @a: - first integer
 * @b: - second integer
 * Return: 0
 */
