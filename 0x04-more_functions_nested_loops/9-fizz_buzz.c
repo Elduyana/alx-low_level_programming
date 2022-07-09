@@ -23,7 +23,6 @@ else if (a % 5 == 0)
 if (a < n)
 printf("Buzz");
 else
-{
 printf("Buzz");
 }
 else
