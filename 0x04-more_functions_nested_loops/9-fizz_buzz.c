@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - main function
-* Return: 0
+* Return: void
 */
 
 int main(void)
@@ -31,6 +31,7 @@ printf("Buzz ");
 else
 printf("Buzz");
 }
+
 else
 {
 printf("%a ", a);
