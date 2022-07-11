@@ -7,8 +7,6 @@
 */
 int _strlen(char *s)
 {
-if (*s != 2)
-_putchar("Usage: %s string\n", *s[0];
-else
-_putchar("Input string has a length of %i\n", _strlen(*s[1]));
+int len;
+len = strlen(*s);
 }
