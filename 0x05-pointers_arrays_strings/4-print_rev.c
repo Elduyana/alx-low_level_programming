@@ -6,10 +6,6 @@
 */
 void print_rev(char *s)
 {
-if (*s)
-{
-reverse(str + 1);
-_putchar("%c", *s);
-}
+print_rev(*s);
 return (0);
 }
