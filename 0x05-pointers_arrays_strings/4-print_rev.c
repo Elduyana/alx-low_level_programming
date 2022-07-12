@@ -6,6 +6,6 @@
 */
 void print_rev(char *s)
 {
-print_rev(*s);
-return (0);
+print_rev(char *s);
+return ();
 }
