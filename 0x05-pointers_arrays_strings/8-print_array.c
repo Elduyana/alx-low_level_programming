@@ -15,7 +15,7 @@ for (b = 0; b < n; b++)
 c = *(a + b);
 printf("%d", c);
 if (b != n - 1)
-printf(",\n");
+printf(", ");
 }
 printf("\n");
 }
