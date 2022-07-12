@@ -1,6 +1,5 @@
-#include "main.c"
+#include "main.h"
 #include <string.h>
-#include "main.c"
 
 /**
 * print_array - main function to print n elements of an array of integers
