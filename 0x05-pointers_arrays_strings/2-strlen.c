@@ -7,7 +7,5 @@
 */
 int _strlen(char *s)
 {
-int len;
-char *s string[] = "My first strlen!";
-len = _strlen(char *s);
+return (strlen(s));
 }
