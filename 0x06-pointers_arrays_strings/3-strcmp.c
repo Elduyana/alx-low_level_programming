@@ -18,6 +18,11 @@ else if (a1[i] == '\0')
 diff = a2[i];
 break;
 }
+else if (a2[i] == '\0')
+{
+diff = a1[i];
+break;
+}
 else if (a2[i] != a2[i])
 {
 diff = a1[i] - a2[i];
