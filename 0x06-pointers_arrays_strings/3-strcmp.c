@@ -6,7 +6,7 @@
 * @a2: string 2
 * Return: differecne
 */
-int _strcmp(char *a1, char a2)
+int _strcmp(char *a1, char *a2)
 {
 int i = 0, diff = 0;
 while (1)
