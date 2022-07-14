@@ -2,12 +2,12 @@
 
 /**
 * cap_string - function to capitalize first character of a word
-* @str: string to capitalize
+* @x: string to capitalize
 * Return: capitalizes]d string
 */
-char *cap_string(char *str)
+char *cap_string(char *x)
 {
-char spcc[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+char spc[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
 int len = 13;
 int a = 0, i;
 while (x[a])
