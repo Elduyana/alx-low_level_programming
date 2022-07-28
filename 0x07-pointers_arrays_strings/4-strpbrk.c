@@ -3,7 +3,7 @@
 /**
 * _strpbrk - prints consecutive characters
 * @s: source string
-* @accet: ssearching string
+* @accept: ssearching string
 * Return: new string
 */
 char *_strpbrk(char *s, char *accept)
