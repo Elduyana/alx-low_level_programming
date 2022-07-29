@@ -1,11 +1,14 @@
 #include "main.h"
-#include <unistd.h>
+#include <stdlib.h>
 /**
-* _putchar - writes the chaaracter c to stdout
-* @c: character
-* Return: 0 or 1
+* malloc_checked - memory allocator
+* @b: size of memory to be allocated
+* Return: pointer to allocated memory
 */
-int _putchar(char c)
+void *malloc_checked(unsigned int b)
 {
-return (write(1, &c, 1));
+void *p = malloc(b);
+if (p == NULL)
+exit(98);
+return (p);
 }
