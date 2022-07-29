@@ -1,6 +1,6 @@
+#include <stdlib.h>
+#include <stdlib.h>
 #include "main.h"
-#include <stdlib.h>
-#include <stdlib.h>
 /**
 * _strlen - calculates and returns string length
 * @string: string
@@ -11,7 +11,7 @@ int _strlen(char *string)
 	int i;
 
 	for (i = 0; string[i] != '\0'; i++)
-		;
+
 	return (i);
 }
 /**
@@ -37,7 +37,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (num >= _strlen(s2))
 		num = _strlen(s2);
 
-	len = strlen(s1) + num + 1;
+	len = _strlen(s1) + num + 1;
 
 	ptr = malloc(sizeof(*ptr) * len);
 	if (ptr == NULL)
@@ -47,6 +47,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (j = 0; j < num; j++)
 		ptr[i + j] = s2[j];
 	ptr[i + j] = '\0';
+
 	return (ptr);
 }
 
